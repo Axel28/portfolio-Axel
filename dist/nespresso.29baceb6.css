@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo+2&display=swap");
+@media (min-width: 320px) {
+  body {
+    background: #13131e;
+  }
+  body .doublelogo .what {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body .desc {
+    margin-top: 675px;
+  }
+  body .desc .hetic {
+    color: #13131e;
+  }
+  body .desc .desc__text {
+    display: none;
+  }
+  body .desc .about {
+    display: none;
+  }
+  body .desc .desc__type {
+    font-family: "Merriweather", serif;
+    color: white;
+    font-size: 17px;
+    line-height: 167.7%;
+    padding-left: 16px;
+  }
+  body .desc .desc__typeface {
+    display: none;
+  }
+  body .desc .desc__type--date {
+    color: #8095ff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    padding-left: 16px;
+  }
+  body .desc .desc__type--date--text {
+    font-family: Merriweather;
+    color: #c4c4c4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 167.7%;
+    margin-top: 1em;
+    padding-left: 16px;
+  }
+  body .favorite {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 195px;
+    height: 53px;
+    border: 2px solid #ffffff;
+    box-shadow: 12px 12px 2px 1px rgba(241, 241, 241, 0);
+    background: #8095ff;
+  }
+  body .nes__illustration {
+    width: 100vw;
+  }
+  body .line {
+    display: none;
+  }
+  body .linee {
+    display: none;
+  }
+  body .palette {
+    display: none;
+  }
+  body .desk {
+    display: none;
+  }
+  body .second {
+    display: none;
+  }
+  body .contact {
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background: #13131e;
+  }
+  body .doublelogo .what {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body .desc {
+    margin-top: 675px;
+  }
+  body .desc .hetic {
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 132.27%;
+    color: white;
+    margin-left: 0.6em;
+  }
+  body .desc .desc__typeface {
+    display: block;
+  }
+  body .desc .about {
+    display: block;
+    width: 225px;
+  }
+  body .desc .desc__text {
+    display: block;
+    color: white;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 159.65%;
+    margin-left: 2em;
+    width: 704px;
+  }
+  body .desc .desc__type {
+    display: none;
+  }
+  body .desc .firstdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    margin-right: 2em;
+  }
+  body .desc .seconddiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    height: 170px;
+    margin-bottom: 1em;
+    margin-right: 2em;
+  }
+  body .desc .date {
+    margin-right: 4em;
+  }
+  body .desc .desc__type--date--text {
+    margin-top: 1em;
+  }
+  body .line {
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+  }
+  body .palette {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 392px;
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body .type--palette {
+    color: #8095ff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-align: center;
+  }
+  body .contact {
+    display: none;
+  }
+}
+@media (min-width: 1366px) {
+  body {
+    background: #13131e;
+  }
+  body .doublelogo {
+    top: -5em;
+  }
+  body .what {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 256px;
+    height: 56px;
+  }
+  body .desc {
+    display: none;
+  }
+  body .hetic {
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 132.27%;
+    color: white;
+    margin-left: 1.5em;
+    margin-top: 15em;
+  }
+  body .first {
+    margin-right: 5em;
+  }
+  body .desk {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Merriweather;
+  }
+  body .desk__text {
+    align-self: center;
+    width: 900px;
+    margin-left: 5em;
+    line-height: 172.4%;
+  }
+  body .desk__type--date--text {
+    font-family: Merriweather;
+    color: #c4c4c4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 167.7%;
+    margin-top: 1em;
+  }
+  body .desk__type--date {
+    color: #8095ff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 1em;
+  }
+  body .favorite {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 320px;
+    height: 88px;
+    border: 2px solid #ffffff;
+    box-shadow: 12px 12px 2px 1px rgba(241, 241, 241, 0);
+    background: #8095ff;
+    margin-bottom: 1em;
+  }
+  body .linee {
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  body .abou .desk__type--date--text {
+    font-family: Merriweather;
+    color: #c4c4c4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 167.7%;
+    margin-top: 1em;
+  }
+  body .second {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 7em;
+    margin-bottom: 2em;
+  }
+  body .type--palet {
+    color: #8095ff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-align: center;
+  }
+  body .abou {
+    width: 200px;
+  }
+  body .palet {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 392px;
+    height: 100px;
+  }
+  body .contact {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=/nespresso.29baceb6.css.map */
